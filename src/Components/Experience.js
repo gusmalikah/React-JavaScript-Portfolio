@@ -4,7 +4,6 @@ import "../styles/experience.css"
 function Experience() {
     return(
         <div>
-    Experience
         </div>
     )
 }

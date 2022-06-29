@@ -4,7 +4,6 @@ import "../styles/about.css"
 function About() {
     return(
         <div>
-            Header
         </div>
     )
 }
