@@ -6,7 +6,7 @@ import Profile from "../images/profile.png"
 
 function Header() {
     return(
-        <header>
+        <header id="header">
         <div className="container header-container">
         <h5>Hello I'm</h5>
         <h1>Malik Hannan</h1>
