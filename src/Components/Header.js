@@ -5,6 +5,7 @@ import "../styles/header.css"
 import Profile from "../images/profile.png"
 
 function Header() {
+    const [activeNav, setActiveNav] = React.useState("#header")
     return(
         <header id="header">
         <div className="container header-container">
@@ -16,7 +17,7 @@ function Header() {
         <div className="profile">
         <img src={Profile} alt="Profile" />
         </div>
-        <a href="#contact" className="scroll-down">Scroll Down</a>
+        <a href="#contact" className="scroll-down" >Scroll Down</a>
         </div>
         </header>
     )

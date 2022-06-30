@@ -10,8 +10,8 @@
 }
 
 :root {
-    --color-backgroud: #1f1f38;
-    --color-backgroud-varient: #2c2c6c;
+    --color-background: #1f1f38;
+    --color-background-varient: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-varient: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
@@ -27,12 +27,18 @@ html {
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    display:inline;
+    background:var(--color-primary-varient);
 }
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary); 
+    border-radius: 10px;
+  }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-backgroud);
+    background: var(--color-background);
     color: var(--color-white);
     line-height: 1.7;
     background-image: url("../src/images/bg-texture.png");
@@ -91,13 +97,13 @@ a:hover {
 
 .btn:hover {
     background: var(--color-white);
-    color: var(--color-backgroud);
+    color: var(--color-background);
     border-color: transparent;
 }
 
 .btn-primary {
     background: var(--color-primary);
-    color: var(--color-backgroud);
+    color: var(--color-background);
 }
 
 img {

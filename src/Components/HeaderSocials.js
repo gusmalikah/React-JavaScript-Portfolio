@@ -7,7 +7,7 @@ import {FiInstagram} from "react-icons/fi"
 function HeaderSocials() {
     return(
         <div className="header-socials">
-        <a href="https://Linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin/></a>
         <a href="https://github.com" target="_blank" rel="noreferrer"><FaGithub/></a>
         <a href="https://instagram.com" target="_blank" rel="noreferrer"><FiInstagram/></a>
         </div>

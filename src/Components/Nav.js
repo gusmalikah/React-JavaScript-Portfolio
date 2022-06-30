@@ -4,16 +4,17 @@ import {AiOutlineHome} from "react-icons/ai"
 import {AiOutlineUser} from "react-icons/ai"
 import {BiBook} from "react-icons/bi"
 import {RiServiceLine} from "react-icons/ri"
+import {MdOutlineSegment} from "react-icons/md"
 import {BiMessageSquareDetail} from "react-icons/bi"
 
 function Nav() {
-    const [activeNav, setActiveNav] = React.useState("#")
+    const [activeNav, setActiveNav] = React.useState("#header")
     return(
         <nav>
 
             <a href="#header" 
-            onClick={() => setActiveNav("#")} 
-            className={activeNav === "#" ? "active" : ""}>
+            onClick={() => setActiveNav("#header")} 
+            className={activeNav === "#header" ? "active" : ""}>
             <AiOutlineHome/>
             </a>
             <a href="#about" 
@@ -29,6 +30,10 @@ function Nav() {
             onClick={() => setActiveNav("#services")} 
             className={activeNav === "#services" ? "active" : ""}>
             <RiServiceLine/></a>
+            <a href="#portfolio" 
+            onClick={() => setActiveNav("#portfolio")} 
+            className={activeNav === "#portfolio" ? "active" : ""}>
+            <MdOutlineSegment/></a>
             <a href="#contact" 
             onClick={() => setActiveNav("#contact")} 
             className={activeNav === "#contact" ? "active" : ""}>

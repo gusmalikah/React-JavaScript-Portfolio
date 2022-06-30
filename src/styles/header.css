@@ -69,4 +69,7 @@ header {
     .scroll-down {
       display: none;  
     }
+    .cta {
+       gap: 0.7rem;
+    }
 }
