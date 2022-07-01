@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/portfolio.css"
-import IMG1 from "../images/portfolio1.jpg"
-import IMG2 from "../images/portfolio2.jpg"
+import IMG1 from "../images/portfolio1.png"
+import IMG2 from "../images/portfolio2.png"
 import IMG3 from "../images/portfolio3.jpg"
 import IMG4 from "../images/portfolio4.jpg"
 //import IMG5 from "../images/portfolio5.png"
@@ -12,14 +12,14 @@ const data =
     {
     id:1,
     image:IMG1,
-    title:"title1",
-    github:"https://github.com"
+    title:<h5>Vue.js • Node.js • AdobeXd</h5>,
+    github:"https://github.com/gusmalikah/Vue-JavaScript-FullStack-Deelee"
     },
     {
     id:2,
     image:IMG2,
-    title:"title2",
-    github:"https://github.com"
+    title:<h5>Java • C++ • MQTT • AdobeXd</h5>,
+    github:"https://github.com/gusmalikah/Java-C--MQTT-CARAID-"
     },
     {
     id:3,
@@ -48,7 +48,7 @@ function Portfolio() {
         <div className="portfolio-item-image">
         <img src={image} alt={title}/>
         </div>
-        <h3>{title}</h3>
+        <h3 className="portfolio-title">{title}</h3>
         <div className="portfolio-item-cta">
         <a href={github} className="btn" target="_blank" rel="noreferrer">Github</a>
         </div>

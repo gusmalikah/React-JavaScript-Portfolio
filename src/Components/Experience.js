@@ -15,7 +15,7 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>HTML</h4>
+        <h4>React JS</h4>
         <small className="text-light">Experienced</small>
         </div>
         </article>
@@ -23,7 +23,7 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>HTML</h4>
+        <h4>Vue.js</h4>
         <small className="text-light">Experienced</small>
         </div>
         </article>
@@ -31,7 +31,7 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>CSS</h4>
+        <h4>Angular JS</h4>
         <small className="text-light">Intermediate</small>
         </div>
         </article>
@@ -47,7 +47,7 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>Bootstrap</h4>
+        <h4>TypeScript</h4>
         <small className="text-light">Intermediate</small>
         </div>
         </article>
@@ -55,7 +55,15 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>Vue</h4>
+        <h4>Next.js</h4>
+        <small className="text-light">Intermediate</small>
+        </div>
+        </article>
+
+        <article className="experience-details">
+        <BsPatchCheckFill className="experience-details-icon"/>
+        <div>
+        <h4>HTML</h4>
         <small className="text-light">Experienced</small>
         </div>
         </article>
@@ -63,15 +71,7 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>Angular</h4>
-        <small className="text-light">Intermediate</small>
-        </div>
-        </article>
-
-        <article className="experience-details">
-        <BsPatchCheckFill className="experience-details-icon"/>
-        <div>
-        <h4>React</h4>
+        <h4>CSS</h4>
         <small className="text-light">Experienced</small>
         </div>
         </article>
@@ -84,32 +84,8 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>Node JS</h4>
+        <h4>Java</h4>
         <small className="text-light">Experienced</small>
-        </div>
-        </article>
-
-        <article className="experience-details">
-        <BsPatchCheckFill className="experience-details-icon"/>
-        <div>
-        <h4>MongoDB</h4>
-        <small className="text-light">Intermediate</small>
-        </div>
-        </article>
-
-        <article className="experience-details">
-        <BsPatchCheckFill className="experience-details-icon"/>
-        <div>
-        <h4>PHP</h4>
-        <small className="text-light">Intermediate</small>
-        </div>
-        </article>
-
-        <article className="experience-details">
-        <BsPatchCheckFill className="experience-details-icon"/>
-        <div>
-        <h4>MYSQL</h4>
-        <small className="text-light">Basic</small>
         </div>
         </article>
 
@@ -124,7 +100,7 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>Java</h4>
+        <h4>#C</h4>
         <small className="text-light">Experienced</small>
         </div>
         </article>
@@ -132,7 +108,7 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>#C</h4>
+        <h4>Node JS</h4>
         <small className="text-light">Intermediate</small>
         </div>
         </article>
@@ -140,8 +116,32 @@ function Experience() {
         <article className="experience-details">
         <BsPatchCheckFill className="experience-details-icon"/>
         <div>
-        <h4>C++</h4>
+        <h4>MYSQL</h4>
+        <small className="text-light">Intermediate</small>
+        </div>
+        </article>
+
+        <article className="experience-details">
+        <BsPatchCheckFill className="experience-details-icon"/>
+        <div>
+        <h4>MongoDB</h4>
         <small className="text-light">Experienced</small>
+        </div>
+        </article>
+
+        <article className="experience-details">
+        <BsPatchCheckFill className="experience-details-icon"/>
+        <div>
+        <h4>PHP</h4>
+        <small className="text-light">Basic</small>
+        </div>
+        </article>
+
+        <article className="experience-details">
+        <BsPatchCheckFill className="experience-details-icon"/>
+        <div>
+        <h4>Kotlin</h4>
+        <small className="text-light">Basic</small>
         </div>
         </article>
         </div>

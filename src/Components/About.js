@@ -26,8 +26,8 @@ function About() {
         </article>
         <article className="about-card">
         <FiUsers className="about-icon"/>
-        <h5>Clients</h5>
-        <small>Multiple Clients</small>
+        <h5>Teams</h5>
+        <small>Multiple Teams</small>
         </article>
         <article className="about-card">
         <VscFolderLibrary className="about-icon"/>
@@ -35,15 +35,14 @@ function About() {
         <small>25+ Completed</small>
         </article>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur 
-        adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna 
-        aliqua. Ut enim ad minim veniam, quis
-        nostrud exercitation ullamco laboris 
-        nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu 
-        fugiat nulla pariatur.
+        <p>I am an aspiring software engineer with 
+        knowledge in software engineering 
+        & software management. Proficient in Java,
+        JavaScript, Python, C, HTML, CSS, SQL server,
+        Bootstrap, Web API, React.js, Vue.js,
+        Node.js etc. Constant learner and ability to 
+        adapt to new technologies. Possess strong 
+        communication and team management skills.
         </p>
         <a href="#contact" className="btn btn-primary">Let's Talk
         </a>

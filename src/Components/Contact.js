@@ -14,9 +14,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm('service_x97yqg9', 'template_jowcqkj', form.current, 'AA-CAt3DVOURxkr-x')
-    e.target.reset()      
+    e.target.reset() 
     alert(`ThankYou for you message!
-I will get back to you soon.`)
+I will get back to you soon.`)     
+
 };
     return(
         <section id="contact">
@@ -28,8 +29,8 @@ I will get back to you soon.`)
         <article className="contact-option">
         <MdOutlineEmail className="contact-option-icon"/>
         <h4>Email</h4>
-        <h5>email@gmail.com</h5>
-        <a href="mailto:email@gmail.com">Send a message</a>
+        <h5>hannanmalik1999@gmail.com</h5>
+        <a href="mailto:hannanmalik1999@gmail.com">Send a message</a>
         </article>
         <article className="contact-option">
         <RiMessengerLine className="contact-option-icon"/>

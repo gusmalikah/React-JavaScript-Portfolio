@@ -1,5 +1,4 @@
 import React from "react"
-import "../styles/cta.css"
 import CV from "../images/cv.pdf"
 
 function CTA() {

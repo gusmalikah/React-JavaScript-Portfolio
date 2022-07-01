@@ -27,14 +27,10 @@ html {
 }
 
 ::-webkit-scrollbar {
-    display:inline;
-    background:var(--color-primary-varient);
-}
+    display:none;
 
-::-webkit-scrollbar-thumb {
-    background: var(--color-primary); 
-    border-radius: 10px;
   }
+  
 
 body {
     font-family: 'Poppins', sans-serif;
