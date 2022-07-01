@@ -1,8 +1,8 @@
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
-    padding: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+   
 }
 
 .portfolio-item {
@@ -21,6 +21,7 @@
 .portfolio-item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 50%;
 }
 
 .portfolio-item h3 {
@@ -32,13 +33,13 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
-.portfolio-title {
-    text-align: center;
-}
-.btn {
-    margin: auto;
+.portfolio-btn {
     width: 100%;
     text-align: center;
+}
+.portfolio-text {
+    height: 30px;
+    
 }
 
 @media screen and (max-width: 1024px) {

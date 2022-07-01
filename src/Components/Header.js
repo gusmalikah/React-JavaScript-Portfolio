@@ -4,7 +4,7 @@ import HeaderSocials from "./HeaderSocials"
 import "../styles/header.css"
 import Profile from "../images/profile.png"
 
-function Header() {
+function Header({on, props}) {
     return(
         <header id="header">
         <div className="container header-container">
@@ -22,3 +22,5 @@ function Header() {
     )
 }
 export default Header
+//PostList = Nav
+//PostDetail = Header

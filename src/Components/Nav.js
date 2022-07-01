@@ -5,6 +5,7 @@ import {AiOutlineUser} from "react-icons/ai"
 import {BiBook} from "react-icons/bi"
 import {MdOutlineSegment} from "react-icons/md"
 import {BiMessageSquareDetail} from "react-icons/bi"
+import {FaArrowAltCircleDown} from "react-icons/fa"
 
 function Nav() {
     const [activeNav, setActiveNav] = React.useState("#header")
@@ -33,6 +34,10 @@ function Nav() {
             onClick={() => setActiveNav("#contact")} 
             className={activeNav === "#contact" ? "active" : ""}>
             <BiMessageSquareDetail/></a>
+            <a href="#footer" 
+            onClick={() => setActiveNav("#footer")} 
+            className={activeNav === "#footer" ? "active" : ""}>
+            <FaArrowAltCircleDown/></a>
         </nav>
     )
 }
