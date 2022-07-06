@@ -7,36 +7,34 @@ import {MdOutlineSegment} from "react-icons/md"
 import {BiMessageSquareDetail} from "react-icons/bi"
 import {FaArrowAltCircleDown} from "react-icons/fa"
 
-function Nav() {
-    const [activeNav, setActiveNav] = React.useState("#header")
+function Nav({active, setActive}) {
     return(
         <nav>
-
             <a href="#header" 
-            onClick={() => setActiveNav("#header")} 
-            className={activeNav === "#header" ? "active" : ""}>
+            onClick={() => setActive("#header")} 
+            className={active === "#header" ? "active" : ""}>
             <AiOutlineHome/>
             </a>
             <a href="#about" 
-            onClick={() => setActiveNav("#about")}
-            className={activeNav === "#about" ? "active" : ""}>
+            onClick={() => setActive("#about")}
+            className={active === "#about" ? "active" : ""}>
             <AiOutlineUser/>
             </a>
             <a href="#experience" 
-            onClick={() => setActiveNav("#experience")}
-            className={activeNav === "#experience" ? "active" : ""}>
+            onClick={() => setActive("#experience")}
+            className={active === "#experience" ? "active" : ""}>
             <BiBook/></a>
             <a href="#portfolio" 
-            onClick={() => setActiveNav("#portfolio")} 
-            className={activeNav === "#portfolio" ? "active" : ""}>
+            onClick={() => setActive("#portfolio")} 
+            className={active === "#portfolio" ? "active" : ""}>
             <MdOutlineSegment/></a>
             <a href="#contact" 
-            onClick={() => setActiveNav("#contact")} 
-            className={activeNav === "#contact" ? "active" : ""}>
+            onClick={() => setActive("#contact")} 
+            className={active === "#contact" ? "active" : ""}>
             <BiMessageSquareDetail/></a>
             <a href="#footer" 
-            onClick={() => setActiveNav("#footer")} 
-            className={activeNav === "#footer" ? "active" : ""}>
+            onClick={() => setActive("#footer")} 
+            className={active === "#footer" ? "active" : ""}>
             <FaArrowAltCircleDown/></a>
         </nav>
     )

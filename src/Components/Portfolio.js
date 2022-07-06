@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/portfolio.css"
 import IMG1 from "../images/portfolio1.png"
 import IMG2 from "../images/portfolio2.jpg"
-import IMG3 from "../images/portfolio3.png"
+import IMG3 from "../images/portfolio3.jpg"
 import IMG4 from "../images/portfolio4.jpg"
 import IMG5 from "../images/portfolio5.png"
 import IMG6 from "../images/portfolio6.jpg"
@@ -12,37 +12,37 @@ const data =
     {
     id:1,
     image:IMG1,
-    title:<h5>Vue.js • Node.js • AdobeXd</h5>,
+    title: "Vue.js • Node.js • AdobeXd",
     github:"https://github.com/gusmalikah/Vue-JavaScript-FullStack-Deelee"
     },
     {
     id:2,
     image:IMG2,
-    title:<h5>Java • C++ • MQTT • Android Studio</h5>,
+    title:"Java • C++ • MQTT • Android Studio",
     github:"https://github.com/gusmalikah/Java-C--MQTT-CARAID-"
     },
     {
     id:3,
     image:IMG3,
-    title:<h5>React JS • JavaScript • HTML • CSS</h5>,
-    github:"https://github.com/gusmalikah/React-JavaScript-Tenzies-Game-"
+    title:"React JS • Firebase • JavaScript • HTML • CSS",
+    github:"https://github.com/gusmalikah/ReactJS-Firebase-JavaScript-MeetUp-App-"
     },
     {
     id:4,
     image:IMG4,
-    title:<h5>React JS • JavaScript • HTML • CSS</h5>,
+    title:"React JS • JavaScript • HTML • CSS",
     github:"https://github.com/gusmalikah/React-JavaScript-Meme-Generator-"
     },
     {
     id:5,
     image:IMG5,
-    title:<h5>Vue.js • Node.js • Mongoose • Mosquitto</h5>,
+    title:"Vue.js • Node.js • Mongoose • Mosquitto",
     github:"https://github.com/gusmalikah/Vue.js-Node.js-Mosquitto-Distributed-System--UI-"
     },
     {
     id:6,
     image:IMG6,
-    title:<h5>React JS • JavaScript • HTML • CSS</h5>,
+    title:"React JS • JavaScript • HTML • CSS",
     github:"https://github.com/gusmalikah/React-JavaScript-Notes-App-"
     }
 ]

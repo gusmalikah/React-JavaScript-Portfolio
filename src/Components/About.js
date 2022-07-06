@@ -5,7 +5,7 @@ import {FaAward} from "react-icons/fa"
 import {FiUsers} from "react-icons/fi"
 import {VscFolderLibrary} from "react-icons/vsc"
 
-function About() {
+function About({setActive}) {
     return(
         <section id="about">
         <h5>Get To Know</h5>
@@ -39,12 +39,17 @@ function About() {
         knowledge in software engineering 
         & software management. Proficient in Java,
         JavaScript, Python, C, HTML, CSS, SQL server,
-        Bootstrap, Web API, React.js, Vue.js,
-        Node.js etc. Constant learner and ability to 
-        adapt to new technologies. Possess strong 
-        communication and team management skills.
+        Bootstrap, Docker, Kubernetes, Web API, ReactJs, 
+        AngularJs, Vue.js, Node.js etc. Constant 
+        learner and ability to adapt to new technologies.
+        Possess strong communication and team management skills.
+        I am in the final year of my Bachelor's program 
+        in Software Engineering & Management from the 
+        University of Gothenburg (Sweden) and would love to 
+        continue my career as a Fullstack Developer.
         </p>
-        <a href="#contact" className="btn btn-primary">Let's Talk
+        <a href="#contact" className="btn btn-primary"
+        onClick={() => setActive("#contact")}>Let's Talk
         </a>
         </div>    
         </div>
