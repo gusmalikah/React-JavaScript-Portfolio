@@ -1,3 +1,8 @@
+# React-JavaScript(Portfolio)
+Portfolio is a personal project which has some basic information about me. This portfolio show few of the projects i have done individually and within teams. Portfolio also has the option to talk to me directly through the web or get in touch through other social platforms such as WhatsApp, Instagram and Email. It has a experience section which shows some of the technologies I have worked with and have the knowledge about. This portfolio is optimized for web and mobile both with the use of CSS.
+
+![Group 1](https://user-images.githubusercontent.com/71040758/177938463-5c0f9722-073c-43e0-b264-e5bf2664144f.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
